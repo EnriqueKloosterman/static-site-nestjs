@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(121, 185, 204);
+}
+@font-face {
+    font-family: 'homer';
+    src: url('/Simpson.ttf')  format('truetype');
+}
+.title{
+    font-family: 'homer';
+    font-style: italic;   
+}
+.header-title{
+    font-family: 'homer';
+    font-style: italic;
+    font-size: 5em;
+    text-align: center;
+}
+.main{
+    margin: auto;
+    margin-top: 3em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px crimson; */
+    padding-top: 3em;
+}
+.board{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 1px yellow solid; */
+    width: 90%;
+}
+.col1, .col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px green solid; */
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    /* border: 1px green solid; */
+    height: 80%;
+}
+.col4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid violet; */
+}
+.col2 img, .col4 img{
+    transform: scale(0.7);
+}
+.col3 img{
+    transform: scale(0.85);
+}
+
+.dancingJ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    /* border: solid 1px black; */
+}
+.dancingJ img{
+    transform: scale(1.4);
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+}
