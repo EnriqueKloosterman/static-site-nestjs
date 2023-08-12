@@ -8,13 +8,13 @@
         height: 100vh;
         overflow: hidden;
         opacity: 0.8;
-        background-image: url("reboband.jpg");
+        background-image: url("../assets/img/reboband.jpg");
         background-position: center;
         background-size: cover;
 }
 @font-face {
     font-family: 'star';
-    src: url('/DeathStar.otf') format('truetype');
+    src: url('../fonts/DeathStar.otf') format('truetype');
 }
 .header{
     display: flex;
@@ -122,7 +122,7 @@
 .tour-container{
     display: flex;
     justify-content: center;
-    background-image: url('reboband.jpg');
+    background-image: url('../assets/img/reboband.jpg');
     overflow: hidden;
     opacity: 0.8;
     background-position: center;

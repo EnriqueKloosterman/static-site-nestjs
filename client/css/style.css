@@ -9,7 +9,7 @@ body{
 }
 @font-face {
     font-family: 'homer';
-    src: url('/Simpson.ttf')  format('truetype');
+    src: url('../fonts/Simpson.ttf')  format('truetype');
 }
 .title{
     font-family: 'homer';
